@@ -192,7 +192,7 @@ setInterval(async () => {
 
 setInterval(() => {
     if (ephermal_db["ash"].isEmpty()) {
-        console.log("No event for screen ash");
+        // console.log("No event for screen ash");
         return;
     }
 
