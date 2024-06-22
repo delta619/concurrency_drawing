@@ -1,6 +1,6 @@
 const catchAsync = require('../utils/catchAsync');
 const { v4 } = require('uuid');
-const ScreenModel = require('../models/ScreenModel');
+const ScreenModel = require('./../models/screenModel');
 
 class Queue {
     constructor() {
